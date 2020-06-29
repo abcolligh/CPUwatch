@@ -1,16 +1,14 @@
 package com.example.cpuwatch;
 
-import androidx.appcompat.app.AppCompatActivity;
+        import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
-import android.util.Log;
-import android.widget.TextView;
+        import android.os.Bundle;
+        import android.os.Handler;
+        import android.os.Message;
+        import android.widget.TextView;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+        import java.text.DateFormat;
+        import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Show_Time_TextView = findViewById(R.id.a);
+        Show_Time_TextView = findViewById(R.id.tv_time);
         ShowTimeMethod();
     }
 
